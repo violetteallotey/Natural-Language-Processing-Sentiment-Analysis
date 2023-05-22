@@ -1,0 +1,9 @@
+streamlit
+transformers
+pandas
+altair
+textblob
+vaderSentiment
+Pillow
+torch
+base64
