@@ -1,37 +1,52 @@
-# Natural-Language-Processing-Sentiment-Analysis
-In this project, I will fine-tune a pre-trained Deep Learning models from HuggingFace on a new dataset to adapt the models to predict the sentiments expressed in a Tweet (e.g: neutral, positive, negative). I will then create an app to use the models and deploy the app on the HuggingFace platform.
+# Natural-Language-Processing-Sentiment-Analysis-
+
+
+ In this project, I fine-tuned a pre-trained Deep Learning models from HuggingFace on a new dataset to adapt the models to predict the sentiments expressed in a Tweet (e.g: neutral, positive, negative). I will then create an app to use the models and deploy the app on the HuggingFace platform.
+ 
+ # Sentiment Analysis App
+
+[![Deployed App](https://img.shields.io/badge/Deployed%20App-Live-green)][https://huggingface.co/spaces/Adoley/app_personalized]
 
 ## Overview
+
 This is a sentiment analysis app built with Streamlit. It predicts the sentiments expressed in an input text and provides a visual representation of the sentiment scores.
 
-## Sentiment Analysis App
-https://huggingface.co/spaces/Adoley/app_personalized
+![App Screenshot](./Screenshots/App.png)
+![App Screenshot](./Screenshots/app2.png)
+
 
 ## Setup
 
 To run the app locally, follow these steps:
 
-Clone the repository:
+1. Clone the repository:
 
-'''shell
+   ```shell
+   git clone git clone https://huggingface.co/spaces/Adoley/app_personalized
+   
+   
+2. Navigate to the project directory:
 
-git clone https://github.com/Gilbert-B/Natural-Language-Processing-Sentiment-Analysis.git
+   ```shell
+   cd sentiment-analysis-app
+     
+   
+3. Install the required dependencies:
 
-Navigate to the project directory:
-
-cd sentiment-analysis-app
+   ```shell
+   pip install -r requirements.txt
   
-Install the required dependencies:
+  
+4. Run the Streamlit app:
 
-pip install -r requirements.txt
+   ```shell
+   streamlit run sentimentapp.py
+  
+5. Open your web browser and visit http://localhost:8501 to access the app.
 
-Run the Streamlit app:
-
-streamlit run sentimentapp.py
-
-Open your web browser and visit http://localhost:8501 to access the app.
 
 ## Author
-Violette Naa Adoley Allotey
+Violette Naa Adoley Allotey 
 
-Medium Article
+
+[Medium Article](https://medium.com/@violetteallotey/tweetzometer-decoding-the-emotional-twitterverse-1c4bec4edcf2)
