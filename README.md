@@ -13,6 +13,8 @@ To run the app locally, follow these steps:
 
 Clone the repository:
 
+'''shell
+
 git clone https://github.com/Gilbert-B/Natural-Language-Processing-Sentiment-Analysis.git
 
 Navigate to the project directory:
